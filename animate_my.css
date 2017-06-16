@@ -1,0 +1,44 @@
+@keyframes mouse {
+  0% {
+    -webkit-transform: translateY(0px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateY(12px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(42px);
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from{
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes floating {
+  0% {
+    top: 0px
+  }
+  50% {
+    top: 15px
+  }
+  100% {
+    top: 0px
+  }
+}
